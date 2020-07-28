@@ -19,7 +19,7 @@ const app = new Vue({
             this.blog = res.blogs;
             this.port = res.port;
             this.education = res.education;
-            setTimeout(function () { this.fetchHole() 
+            setTimeout(function () {
               var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 pagination: {
