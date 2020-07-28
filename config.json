@@ -21,5 +21,19 @@
             "tag": "Fullstack",
             "image": "public/img/mun-manager2k19.png"
         }
+    ],
+    "education": [
+        {
+            "title": "Bahçeşehir Anatolian High School",
+            "years": "2017-2020"
+        },
+        {
+            "title": "Tire Kustan Anatolian High School",
+            "years": "2016"
+        },
+        {
+            "title": "Dört Eylül Primary School",
+            "years": "2007-2015"
+        }
     ]
 }

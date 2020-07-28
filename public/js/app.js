@@ -3,7 +3,8 @@ const app = new Vue({
     data: {
       config: "",
       blog: [],
-      port: []
+      port: [],
+      education: []      
     },
     created(){
         fetch('config.json')
@@ -13,6 +14,7 @@ const app = new Vue({
         }).then((res) => {
             this.blog = res.blogs;
             this.port = res.port;
+            this.education = res.education;
         })
     }
   })
