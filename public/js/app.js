@@ -13,7 +13,6 @@ const app = new Vue({
         }).then((res) => {
             this.blog = res.blogs;
             this.port = res.port;
-            console.log(res);
         })
     }
   })
