@@ -13,13 +13,13 @@
     "port" : [
         {
             "title": "Virtual Airlines Management System",
-            "tag": "Backend",
-            "image": "public/img/VA.png"
+            "tag": "",
+            "image": ""
         },
         {
             "title": "MunManager",
-            "tag": "fullstack",
-            "image": "public/img/mun-manager2k19.png"
+            "tag": "",
+            "image": "public/img/mun-man"
         }
     ]
 }
