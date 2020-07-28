@@ -19,7 +19,6 @@ const app = new Vue({
             this.blog = res.blogs;
             this.port = res.port;
             this.education = res.education;
-            console.log(res);
             setTimeout(function () { this.fetchHole() 
               var swiper = new Swiper('.swiper-container', {
                 loop: true,
