@@ -45,24 +45,15 @@
                     <div class="title"><span>Education</span></div>  
                      <div class="education swiper-container">
                         <div class="swiper-wrapper"> 
-                            <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12  swiper-slide">
+                            <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12  swiper-slide" v-for="item in education">
                                 <a class="education-item">
                                     <i class="fas fa-graduation-cap"></i>
                                     <div class="education-item-right">
-                                        <h3 class="education-item-title">asd</h1>
-                                        <span class="education-item-year">asd</span>
+                                        <h3 class="education-item-title">{{item.title}}</h1>
+                                        <span class="education-item-year">{{item.years}}</span>
                                     </div>
                                 </a>
-                            </div>         
-                            <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12  swiper-slide">
-                                <a class="education-item">
-                                    <i class="fas fa-graduation-cap"></i>
-                                    <div class="education-item-right">
-                                        <h3 class="education-item-title">asd</h1>
-                                        <span class="education-item-year">asd</span>
-                                    </div>
-                                </a>
-                            </div>  
+                            </div>          
                          </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -107,6 +98,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="public/js/swiper-bundle.js"></script>
-<script src="public/js/main.js"></script>
 <script src="public/js/app.js"></script>
+<script src="public/js/main.js"></script>
 </html>
