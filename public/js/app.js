@@ -20,6 +20,21 @@ const app = new Vue({
             this.port = res.port;
             this.education = res.education;
             console.log(res);
+
+            var swiper = new Swiper('.swiper-container', {
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+              },
+            });
         })
     }
   })
+
+
+  
+$(document).ready(function () {
+  //initialize swiper when document ready
+  
+});
