@@ -150,6 +150,56 @@ a {
       color: #515151;
       text-decoration: none; }
 
+.education {
+  display: -ms-flexbox;
+  position: relative;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .education .swiper-pagination {
+    align-items: center; }
+  .education .swiper-pagination-bullet {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.795);
+    z-index: 21; }
+  .education .swiper-pagination-bullet-active {
+    background-color: #fff;
+    z-index: 21; }
+  .education .education-item {
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    padding: 0 15px;
+    background-color: #100e17;
+    background-image: linear-gradient(to bottom, transparent, #100e17);
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center; }
+    .education .education-item .education-item-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white; }
+      .education .education-item .education-item-right .education-item-title {
+        text-align: center;
+        color: #fff;
+        font-size: 23px;
+        font-weight: 700; }
+      .education .education-item .education-item-right .education-item-year {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700; }
+    .education .education-item i {
+      font-size: 50px;
+      color: #100e17;
+      background-color: white;
+      margin-right: 50px;
+      padding: 15px 10px;
+      border-radius: 1000px; }
+
 .portfolio {
   display: -ms-flexbox;
   position: relative;

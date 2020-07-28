@@ -23,3 +23,15 @@ $(function(){
 
     
 });
+
+$(document).ready(function () {
+    //initialize swiper when document ready
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoHeight: true,
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true,
+        },
+      });
+  });
