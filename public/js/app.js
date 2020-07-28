@@ -27,7 +27,7 @@ const app = new Vue({
                   dynamicBullets: true,
                 },
               });
-            }, 3000)
+            }, 800)
             
         })
     }
