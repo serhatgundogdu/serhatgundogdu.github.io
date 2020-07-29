@@ -56,9 +56,7 @@ const app = new Vue({
         responsivemenu.addClass('active');
         e.preventDefault();
     });
-
-    
-}); 
+  }); 
 
   
 $(document).ready(function () {
