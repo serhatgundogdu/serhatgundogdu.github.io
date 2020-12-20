@@ -20,6 +20,16 @@
             "title": "MunManager",
             "tag": "Fullstack",
             "image": "public/img/mun-manager2k19.png"
+        },
+        {
+            "title": "YourEFB",
+            "tag": "Fullstack",
+            "image": "public/img/urefb.png"
+        },
+        {
+            "title": "Istanbul Virtual",
+            "tag": "Fullstack",
+            "image": "public/img/resim_2020-12-20_151811.png"
         }
     ],
     "education": [
