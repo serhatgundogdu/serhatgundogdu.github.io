@@ -34,6 +34,10 @@
             "title": "Istanbul Virtual Crew Center",
             "tag": "Fullstack",
             "image": "public/img/istvacrew.png"
+        },{
+            "title": "Fast Checklist",
+            "tag": "Fullstack",
+            "image": "public/img/fchecklist.png"
         }
     ],
     "education": [
